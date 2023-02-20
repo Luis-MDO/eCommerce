@@ -1,1 +1,14 @@
 @import "./partials/setup";
+@import "./partials/variables";
+@import "./partials/mixins";
+@import "./partials/typography";
+@import "./partials/baseStyles";
+
+
+@import "./partials/navBar";
+@import "./partials/header";
+@import "./partials/form";
+@import "./partials/categories";
+@import "./partials/play";
+@import "./partials/footer";
+@import "./partials/mediaQueries";

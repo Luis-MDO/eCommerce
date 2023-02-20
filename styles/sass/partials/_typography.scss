@@ -14,3 +14,62 @@
     font-family: "Young Serif";
     src: url(../fonts/youngserif/YoungSerif-Regular.otf);
 }
+
+
+html {
+    font-size: 125%;
+}
+
+body {
+    font-family: $secondaryFont;
+    font-size: $baseFontSize;
+    color: $primary;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $primaryFont;
+    color: $primary;
+    margin: 0;
+}
+
+h1 {
+    @include fontSize(28);
+}
+
+h2 {
+    @include fontSize(40);
+    margin-bottom: 18px;
+}
+
+h3 {
+    @include fontSize(54);
+}
+
+h4 {
+    @include fontSize (34);
+}
+
+h5 {
+    @include fontSize(16);
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+p {
+    line-height: 1.4;
+
+    &.small-copy {
+        @include fontSize(14);
+        font-weight: bold;
+        margin: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: .3s;
+}

@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: $tertiary;
+
+  .headerImgContainer {
+    width: 45%;
+  }
+
+  .headerContentContainer {
+    width: 55%;
+    padding: 0 90px;
+  }
+}

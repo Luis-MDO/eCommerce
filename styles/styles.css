@@ -494,3 +494,60 @@ a.secondaryButton:hover, a.secondaryButton:focus {
 .slideOutNav a:hover, .slideOutNav a:focus {
   color: rgba(255, 255, 255, 0.6);
 }
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #f8fbf3;
+}
+header .headerImgContainer {
+  width: 45%;
+}
+header .headerContentContainer {
+  width: 55%;
+  padding: 0 90px;
+}
+
+footer {
+  background-color: #084b6d;
+  padding: 70px 0 100px;
+  color: #fff;
+}
+footer h4 {
+  color: #fff;
+}
+footer h5 {
+  margin-top: 0;
+}
+footer .footerFlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .footerNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 40%;
+}
+footer a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+footer a:hover, footer a:focus {
+  color: #fff;
+}

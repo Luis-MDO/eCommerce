@@ -1,0 +1,35 @@
+footer {
+  background-color: $primary;
+  padding: 70px 0 100px;
+  color: $solidwhite;
+
+  h4 {
+    color: $solidwhite;
+  }
+
+  h5 {
+    margin-top: 0;
+  }
+
+  .footerFlexContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footerNav {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+  }
+
+  a {
+    color: rgba($color: $solidwhite, $alpha: 0.6);
+    @include fontSize(16);
+    line-height: 1.5rem;
+
+    &:hover,
+    &:focus {
+      color: $solidwhite;
+    }
+  }
+}

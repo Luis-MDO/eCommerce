@@ -556,6 +556,23 @@ header .headerContentContainer {
   margin-bottom: 20px;
 }
 
+.play {
+  background-image: url(../assets/background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0;
+}
+.play .playContainer {
+  background-color: #fff;
+  border: 20px solid #f4fcff;
+  max-width: 650px;
+  padding: 70px 40px;
+  text-align: center;
+}
+.play .playContainer p {
+  text-align: left;
+}
+
 footer {
   background-color: #084b6d;
   padding: 70px 0 100px;

@@ -464,11 +464,11 @@ a.secondaryButton:hover, a.secondaryButton:focus {
 .slideOutNav {
   background-color: #084b6d;
   color: #fff;
-  min-height: 50vh;
+  min-height: 100vh;
   position: fixed;
   top: 0;
   padding: 30px 50px;
-  width: 100%;
+  width: 70%;
   max-width: 450px;
   font-weight: bold;
   display: -webkit-box;
@@ -480,6 +480,8 @@ a.secondaryButton:hover, a.secondaryButton:focus {
           flex-direction: column;
   z-index: 20;
   left: -450px;
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
 }
 .slideOutNav.open {
   left: 0;

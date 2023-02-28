@@ -1,6 +1,0 @@
-# Custom Dictionary Words
-COLOURS
-quarternary
-solidblack
-solidgray
-solidwhite

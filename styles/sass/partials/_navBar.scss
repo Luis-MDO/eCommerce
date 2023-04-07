@@ -43,17 +43,18 @@
 .slideOutNav {
   background-color: $primary;
   color: $solidwhite;
-  min-height: 50vh;
+  min-height: 100vh;
   position: fixed;
   top: 0;
   padding: 30px 50px;
-  width: 100%;
+  width: 70%;
   max-width: 450px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
   z-index: 20;
   left: -450px;
+  transition: 0.6s ease-in-out;
 
   &.open {
     left: 0;
